@@ -13,8 +13,8 @@ const images = [
   },
 ];
 
-const galleryList = document.querySelector('.gallery');
-let galleryHTML = '';
+const galleryList = document.querySelector(".gallery");
+let galleryHTML = "";
 images.forEach((image) => {
   galleryHTML += `
     <li class="gallery-item">
@@ -22,4 +22,4 @@ images.forEach((image) => {
     </li>
   `;
 });
-galleryList.insertAdjacentHTML('beforeend', galleryHTML);
+galleryList.insertAdjacentHTML("beforeend", galleryHTML);
